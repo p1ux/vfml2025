@@ -26,8 +26,7 @@ Chatbotten skal bygges trinvist gennem kurset:
 - Dag 7 → kontekst og hukommelse – udvidelser i Chatbot/Data.
 - Dag 8 → UI/UX og tilgængelighed – fokus i BlazorUI/.
 - Dag 9 → test, logging og fejlhåndtering – i både Chatbot og BlazorUI.
-- Til sidst afleveres projektet med README og diagrammer i Docs/.<img width="360" height="97" alt="image" src="https://github.com/user-attachments/assets/a794fad8-4a12-41ba-902f-69aa60869ce8" />
-
+- Til sidst afleveres projektet med README og diagrammer i Docs/.
 
 ## Kom i gang
 1. Installer [.NET SDK](https://dotnet.microsoft.com/en-us/download).
