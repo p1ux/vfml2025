@@ -21,6 +21,14 @@ Chatbotten skal bygges trinvist gennem kurset:
 - `Data/` → dummy data eller databaseforbindelse.
 - `Services/` → NLP, hukommelse, integration med ekstern AI.
 
+Dag 2 → I arbejder med arkitektur og dokumenterer i Docs/.
+Dag 3–6 → NLP, regler, ML – koden skrives i Chatbot/.
+Dag 7 → kontekst og hukommelse – udvidelser i Chatbot/Data.
+Dag 8 → UI/UX og tilgængelighed – fokus i BlazorUI/.
+Dag 9 → test, logging og fejlhåndtering – i både Chatbot og BlazorUI.
+Til sidst afleveres projektet med README og diagrammer i Docs/.<img width="360" height="97" alt="image" src="https://github.com/user-attachments/assets/a794fad8-4a12-41ba-902f-69aa60869ce8" />
+
+
 ## Kom i gang
 1. Installer [.NET SDK](https://dotnet.microsoft.com/en-us/download).
 2. Åbn repo i VS Code eller Visual Studio.
