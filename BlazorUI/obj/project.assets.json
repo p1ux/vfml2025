@@ -432,6 +432,16 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
+      },
+      "Chatbot/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Chatbot.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chatbot.dll": {}
+        }
       }
     },
     "net9.0/browser-wasm": {
@@ -864,6 +874,16 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "Chatbot/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Chatbot.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chatbot.dll": {}
         }
       }
     }
@@ -1746,10 +1766,16 @@
         "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
+    },
+    "Chatbot/1.0.0": {
+      "type": "project",
+      "path": "../Chatbot/Chatbot.csproj",
+      "msbuildProject": "../Chatbot/Chatbot.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Chatbot >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.4",
@@ -1762,11 +1788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/BlazorUI/BlazorUI.csproj",
+      "projectUniqueName": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/BlazorUI/BlazorUI.csproj",
       "projectName": "BlazorUI",
-      "projectPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/BlazorUI/BlazorUI.csproj",
+      "projectPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/BlazorUI/BlazorUI.csproj",
       "packagesPath": "/Users/jordening/.nuget/packages/",
-      "outputPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/BlazorUI/obj/",
+      "outputPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/BlazorUI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jordening/.nuget/NuGet/NuGet.Config"
@@ -1780,7 +1806,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/Chatbot.csproj": {
+              "projectPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/Chatbot.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

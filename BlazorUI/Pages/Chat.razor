@@ -1,3 +1,24 @@
 @page "/chat"
+
 <h3>Chatbot</h3>
-<ChatWindow />
+
+<input @bind="userInput" @bind:event="oninput" />
+<button @onclick="Send">Send</button>
+
+<p><strong>Bot:</strong> @botResponse</p>
+
+@code {
+    private string userInput;
+    private string botResponse;
+
+    private DialogManager _dialogManager = new(
+        new EnhancedNlu(),
+        new SimpleNlg()
+    );
+
+    private void Send()
+    {
+        botResponse = _dialogManager.HandleInput(userInput);
+        userInput = string.Empty;
+    }
+}

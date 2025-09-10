@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/Chatbot/Chatbot.csproj": {}
+    "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/Chatbot.csproj": {}
   },
   "projects": {
-    "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/Chatbot/Chatbot.csproj": {
+    "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/Chatbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/Chatbot/Chatbot.csproj",
+        "projectUniqueName": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/Chatbot.csproj",
         "projectName": "Chatbot",
-        "projectPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/Chatbot/Chatbot.csproj",
+        "projectPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/Chatbot.csproj",
         "packagesPath": "/Users/jordening/.nuget/packages/",
-        "outputPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/fork/Chatbot/obj/",
+        "outputPath": "/Users/jordening/Library/Mobile Documents/com~apple~CloudDocs/Undervisning/AI chat bot/kode/vfml2025/Chatbot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jordening/.nuget/NuGet/NuGet.Config"
